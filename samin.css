@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(28, 160, 160);
+    font-family: 'Bricolage Grotesque', sans-serif;'Poppins';
+}
+.container{
+   max-width: 70%;
+   background-color: rgb(126, 4, 4);
+   margin:0 auto;
+   padding:20px;
+}
+.profile-image{
+    height:120px;
+    width:100px;
+    border:3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.biodata{
+    font-weight: bold;
+    padding:20px;
+    float: left;
+    font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(35, 190, 56);
+}
+.contact{
+    float:right;
+    padding: 10px;
+}
+.contact a{
+    text-decoration: none;
+    line-height: 2;
+    font-weight: bold;
+    color: hotpink;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    max-width: 100%;
+    border:3px solid white;
+    border-bottom: none;
+    margin:20px auto;
+}
+
+/*-----------------
+Personal section start
+--------------------*/
+#personal-section{
+ 
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+   width:30%;
+   float:left;
+}
+.right-div{
+   width:70%;
+   float:left;
+   color: aqua;
+}
+.common{
+    border:1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    max-width:100%;
+    margin: 20px auto;
+}
+
+/*-----------------
+Education section start
+--------------------*/
+.edu-template-left{
+  float:left;
+  width:45%;
+}
+.edu-template-left a{
+    text-decoration: none;
+    color:aqua;
+}
+.edu-template-left a:hover{
+  color:tomato;
+  text-decoration: underline;
+}
+.edu-template-right{
+    float:left;
+    width:45%;
+}
+/*-----------[
+footer start
+------------*/
+
+.last{
+    background-color: black;
+    text-align: center;
+    padding:10px;
+}
+.footer-top{
+    margin: 20pxauto;
+}
+.footer-top a{
+    color:white;
+    text-decoration: none;
+    margin:20px auto;
+    padding:10px;
+}
+.footer-top a:hover{
+   color:tomato;
+   text-decoration: underline;
+}
+.footer-bottom{
+    color: white;
+    margin:20px auto;
+}
